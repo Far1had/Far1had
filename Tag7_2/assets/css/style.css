@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+    background-color: aqua;
+  }
+  header nav{
+    text-align: right;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  

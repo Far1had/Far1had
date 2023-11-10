@@ -1,0 +1,26 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 60px;
+}
+
+div {
+    background-color: #9BC1BC;
+    width: 150px;
+    height: 150px;
+    border: 10px solid #F4F1BB;
+    box-shadow:  0 0 10px 20px  #ED6A5A;
+    outline: 10px solid #546A7B;
+    margin-left: 30px;
+    
+    
+
+}
+
+
+
+
+#9BC1BC, #F4F1BB, #546A7B und #ED6A5A
