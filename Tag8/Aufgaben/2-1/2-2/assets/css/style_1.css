@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --Logocolor: #666;
+    --Logo--and--menu--color--hover: #333;
+    --menu--color--hover: #337ab7
+}
+
+nav ul li a {
+    margin-top: 15px;
+    font-size: 15px;
+    color: gray;
+}
+
+a:hover {
+
+    color: var(--Logo--and--menu--color--hover);
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: var(--menu--color--hover);
+
+}
+
+header nav a {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 35px;
+    background-size: cover;
+    text-decoration: none;
+    color: var(--Logocolor);
+}
+
+li {
+    list-style: none;
+}
