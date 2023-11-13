@@ -11,7 +11,7 @@
     --menu--color--hover: #337ab7
 }
 
-nav ul li a {
+nav ul li a{
     margin-top: 15px;
     font-size: 15px;
     color: gray;
@@ -21,14 +21,13 @@ a:hover {
 
     color: var(--Logo--and--menu--color--hover);
 }
-
-header nav ul li a:hover {
+header nav ul li a:hover{
     text-decoration: none;
     color: var(--menu--color--hover);
-
+    
 }
 
-header nav a {
+header nav a{
     margin-top: 15px;
     margin-left: 20px;
     font-size: 35px;
@@ -40,3 +39,12 @@ header nav a {
 li {
     list-style: none;
 }
+
+ul {
+    display: flex;
+    justify-content: right;
+
+}
+
+
+
