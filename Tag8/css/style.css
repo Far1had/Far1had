@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* display flex immer auf den Eltern Container anwenden */
+
+.flex__selection {
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    /* justify-content bezieht sich immer auf die Main Axis */
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    /* align-items bezieht sich immer auf die Cross Axis */
+    align-items: flex-start;
+    align-items: center;
+    /* align-items: flex-end;
+  /* flex-direction: column; */
+}
+
+.flex__selection div {
+    height: 50px;
+    width: 50px;
+}
+
+.flex__selection div:nth-of-type(1) {
+    align-self: center;
+
+    background-color: blue;
+}
+
+.flex__selection div:nth-of-type(2) {
+    align-self: first baseline;
+    background-color: red;
+}
+
+.flex__selection div:nth-of-type(3) {
+    align-self: flex-start;
+    background-color: rgb(9, 255, 0);
+}
+
+.flex__selection div:nth-of-type(4) {
+    background-color: rgb(0, 217, 255);
+    align-self: flex-end;
+}
+
+/*main {
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+main div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+main div:nth-of-type(2) {
+    flex-shrink: 2;
+    border: 2px solid red;
+
+}
+
+main div:nth-of-type(1){
+    flex-basis: 50px;
+} */
+
+main {
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+
+main section img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+main ul {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+main ul li {
+    border: 1px solid red;
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
