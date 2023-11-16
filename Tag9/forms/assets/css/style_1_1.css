@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    margin: 5vh 10vw;
+}
+
 
 form {
     margin-left: 50%;
@@ -12,7 +16,14 @@ form {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 20px 30px ;
+    max-width: 550px;
 
+}
+
+fieldset{
+    border: none;
+    padding: 8% 10% ;
 }
 
 section {

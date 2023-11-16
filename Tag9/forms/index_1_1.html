@@ -8,45 +8,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style_1_1.css">
-    <title>Form</title>
+    <title>Form_1_</title>
 
 </head>
 
 <body>
     <form action="mailto:manfarhad@gmail.com" class="sections">
+        <fieldset>
 
-        <section class="name">
-            <label for="name">Name <span>*</span></label>
-            <article>
-                <input type="text" name="first-name" id="name" required placeholder="Vorname">
-                <input type="text" name="last-name" id="name" required placeholder="Nachname">
-            </article>
+            <section class="name">
+                <label for="name">Name <span>*</span></label>
+                <article>
+                    <input type="text" name="first-name" id="name" required placeholder="Vorname">
+                    <input type="text" name="last-name" id="name" required placeholder="Nachname">
+                </article>
 
-        </section>
+            </section>
 
-        <section class="email">
-            <label for="email">Email <span>*</span></label>
-            <input type="email" name="email" id="email" required placeholder="type@e-ma.il">
-        </section>
+            <section class="email">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" name="email" id="email" required placeholder="type@e-ma.il">
+            </section>
 
-        <section class="thema">
-            <label for="thema">Thema</label>
-            <select name="thema" id="thema">
-                <option value="">Advertise</option>
-                <option value="#">option1</option>
-                <option value="#">option2</option>
-                <option value="#">option3</option>
-            </select>
-        </section>
+            <section class="thema">
+                <label for="thema">Thema</label>
+                <select name="thema" id="thema">
+                    <option value="">Advertise</option>
+                    <option value="#">option1</option>
+                    <option value="#">option2</option>
+                    <option value="#">option3</option>
+                </select>
+            </section>
 
-        <section class="message">
-            <label for="message">Nachricht <span>*</span></label>
-            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-        </section>
+            <section class="message">
+                <label for="message">Nachricht <span>*</span></label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </section>
 
-        <section class="submit">
-            <input type="submit" value="Submit">
-        </section>
+            <section class="submit">
+                <input type="submit" value="Submit">
+            </section>
+
+
+        </fieldset>
+
 
 
     </form>
