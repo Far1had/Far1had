@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+:root {
+    --first-color: #43D1AF;
+    --hover-color: #2EBC99;
+    --second-color: #FFFFFF;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+}
+
+div h2 {
+    height: 50%;
+    width: 50vw;
+    padding: 4%;
+    font-size: 1rem;
+    background-color: var(--first-color);
+    text-align: center;
+}
+
+h2 {
+    color: var(--second-color);
+}
+
+
+form {
+    background-color: rgba(139, 138, 138, 0.106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name,
+.email,
+.message,
+.submit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+input {
+    padding: 5px 15px;
+    margin-top: 1.5vh;
+}
+
+
+.submit {
+    height: 50%;
+    width: 50vw;
+    padding: 4%;
+    margin: -8%;
+    font-size: 1rem;
+    background-color: var(--first-color);
+    text-align: center;
+
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: var(--first-color);
+    border: none;
+    color: var(--second-color) ;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--hover-color);
+}
