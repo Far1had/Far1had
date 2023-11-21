@@ -5,6 +5,7 @@
     gap: 7px;
 }
 
+
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -17,56 +18,82 @@ section {
 }
 
 .box1 {
-    background-image: url(https://picsum.photos/450?1);
+    background-image: url(https://picsum.photos/501);
     background-repeat: no-repeat;
     grid-area: box1;
 
 }
 
 .box2 {
-    background-image: url(https://picsum.photos/450?2);
+    background-image: url(https://picsum.photos/502);
     background-repeat: no-repeat;
     grid-area: box2;
 }
 
 .box3 {
-    background-image: url(https://picsum.photos/450?3);
+    background-image: url(https://picsum.photos/503);
     background-repeat: no-repeat;
     grid-area: box3;
 }
 
 .box4 {
-    background-image: url(https://picsum.photos/450?4);
+    background-image: url(https://picsum.photos/504);
     background-repeat: no-repeat;
     grid-area: box4;
 }
 
 .box5 {
-    background-image: url(https://picsum.photos/450?5);
+    background-image: url(https://picsum.photos/505);
     background-repeat: no-repeat;
     grid-area: box5;
 }
 
 .box6 {
-    background-image: url(https://picsum.photos/450?6);
+    background-image: url(https://picsum.photos/506);
     background-repeat: no-repeat;
     grid-area: box6;
 }
 
 .box7 {
-    background-image: url(https://picsum.photos/450?7);
+    background-image: url(https://picsum.photos/507);
     background-repeat: no-repeat;
     grid-area: box7;
 }
 
 .box8 {
-    background-image: url(https://picsum.photos/450?8);
+    background-image: url(https://picsum.photos/508);
     background-repeat: no-repeat;
     grid-area: box8;
 }
 
 .box9 {
-    background-image: url(https://picsum.photos/450?9);
+    background-image: url(https://picsum.photos/509);
     background-repeat: no-repeat;
     grid-area: box9;
+}
+
+.boxbox div {
+    display: grid;
+    place-items: center center;
+}
+
+.boxbox p {
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.hover {
+    display:none;
+}
+
+.box1:hover > .hover, .box2:hover > .hover, .box3:hover > .hover, .box4:hover > .hover, .box5:hover > .hover, .box6:hover > .hover, .box7:hover > .hover, .box8:hover > .hover, .box9:hover > .hover {
+    display: grid;
+    animation: fadeIn 0.5s;
 }
