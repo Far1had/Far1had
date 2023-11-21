@@ -31,13 +31,13 @@
   }
 
   .box4 {
-    background-color: violet;
+    background-color: rgb(182, 12, 182);
     grid-column: 3 / 4;
     grid-row: 3 / 4;
   }
   
   .box5 {
-    background-color: violet;
+    background-color: rgb(182, 12, 182);
     grid-column: 4 / 5;
     grid-row: 3 / 4;
   }
