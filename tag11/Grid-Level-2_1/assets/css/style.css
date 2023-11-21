@@ -79,9 +79,8 @@ section {
 
 .boxbox p {
     font-size: 2rem;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.322);
-    padding: 1rem;
+    color: white;
+    background-color: transparent;
 }
 
 @keyframes fadeIn {
