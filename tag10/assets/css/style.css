@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h2:nth-of-type(2) {
+  font-weight: 100;
+  line-height: 0;
+  margin-left: 26px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+header {
+    background-color: rgb(242, 255, 0);
+    position: sticky;
+    top: 0px; 
+
+    left: 0; 
+    right: 0;
+}
+
+  
+nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: deeppink; 
+  padding: 0 15px;
+}
+
+nav div {
+  padding: 0 15px;
+}
+  
+a {
+    color: deeppink; 
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+}
+  
+
+/* ----------- HERO SECTION ----------- */
+
+.hero__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:  rgb(20, 25, 65);
+}
+
+.hero__section div {
+    width: 50vw;
+    padding: 30px;
+    color: rgb(141, 151, 155);
+}
+
+.hero__section img {
+    width: 100%
+}
+
+.mobile__image{
+    display: none;
+}
+
+
+/* ------------------ Burger Menü ------------------ */
+.burger__wrapper{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: none;
+}
+
+.burger{
+    height: 5px;
+    width: 30px;
+    background-color: rgb(102, 0, 97);
+    margin: 2px;
+    border-radius: 10px;
+}
+
+
+/* ------------------ BOX SECTION ------------------ */
+
+.box article{
+    margin: 20px;
+    text-align: justify;
+    background-color: deeppink;
+    padding: 30px;
+    max-width: 100vw;
+}
+
+.color{
+    height: 30vh;
+    margin: 20px;
+    background-color: aqua;
+}
+
+  
+/* ------------------ MEDIA QUERIES ------------------ */
+
+/* 
+! Media Queries für Desktop-First-Ansatz:
+! - Tablet: Anwenden von Stilen für Bildschirme bis zu einer Maximalbreite von 767px.
+! - Handy: Anwenden von Stilen für Bildschirme bis zu einer Maximalbreite von 576px.
+*/
+
+/* 
+! Media Queries für Mobile-First-Ansatz:
+! - Tablet: Anwenden von Stilen für Bildschirme ab einer Mindestbreite von 768px.
+! - Desktop: Anwenden von Stilen für Bildschirme ab einer Mindestbreite von 992px.
+*/
+
+
+
+/* # DESKTOP -> Handy max-width, um das Layout anzupassen, wenn der Bildschirm kleiner wird */
+/* # HANDY -> DESKTOP  Verwende min-width, um das Layout anzupassen, wenn der Bildschirm größer wird */
+
+
+/* * das @media ist ein Schlüssel, dein ein Media Querie in css einbettet. */
+/* * das Wort "only" wird verwendet, um ältere Browser auszuschließen, die die Media Queries nicht korrekt interpritieren können.  */
+
+/* 
+* Desktop-First: Wenn du zuerst für Desktop-Bildschirme gestaltest, beginnst du ohne Media Queries. 
+* Wenn es notwendig wird, das Design für kleinere Bildschirme, wie unterhalb von 1280 Pixeln, anzupassen, verwendest du max-width Media Queries. 
+* Hier passt du das Layout so an, dass es sich "nach unten" für kleinere Geräte skaliert.
+*/
+
+
+
+@media only screen and (max-width: 576px){ /* * bis 576px */
+    h1{
+        font-size: 5rem;
+        color: deeppink;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .hero__section{
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+    .hero__section div{
+        width: auto; 
+    }
+    .hero__section .image{
+        display: none;
+    }
+    .hero__section .mobile__image{
+        display: block;
+        max-width: 100%;
+    }
+
+    /* # Burger Menü */
+
+    header .burger__wrapper{
+        display: block;
+    }
+    header nav {
+        display: none;
+    }
+
+    /* # box section */
+
+    .box{
+        display: flex;
+    }
+    .box article p {
+        display: none;
+    }
+    .color{
+        width: 80vw;
+        height: 100vh;
+    }
+}
+  
+
+ /* 
+* Mobile-First: Wenn du mit der Gestaltung deiner Webseite beginnst, startest du ohne Media Queries. 
+* Sobald du Anpassungen für größere Bildschirme, wie Tablets ab einer Breite von 576 Pixeln, benötigst, fügst du min-width Media Queries hinzu. 
+* Du passt das Layout so an, dass es sich "nach oben" für größere Geräte skaliert. 
+*/
+
+@media only screen and (min-width: 576px) { 
+    .hero__section {
+        background-color: rgb(66, 60, 179);
+    }
+}
