@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+:root{
+    --h2-color: #0e1015;
+    --p-color: #8c979e;
+    --read-more-color: #5234f9;
+    --hover-color: #745cf9;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman"
+      "Batman";
+    gap: 10px;
+  }
+
+  display: grid;
+  grid-template-columns: 30%;
+  grid-template-columns: 1fr 1fr 1fr 2.5fr;
+  grid-template-rows: 60px 80vh 200px 60px;
+
+
+
+
+@media only screen and (max-width: 576px){
+    header .navmobile {
+        display: block;
+    }
+    header div nav {
+        display: none;
+    }
+    
+
+    
+}
+
+
+
+Weiter geht es mit deinem Shapely-Projekt: Bitte hole den Code der Übung wieder hervor. Dieses Mal sollst du die beiden sections "SEO friendly" und "Portfolio Section" erstellen, nutze gerne die Befehle grid dafür.
+
+
+Die Links der Fotos: Bild Nr. 1 und Bild Nr. 2.
+
+https://colorlibhub.com/shapely/
+
