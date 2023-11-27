@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgba(128, 128, 128, 0.428);
+    height: 200px;
+}
+
+.red_line div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: width 3s ease-in-out;
+}
+
+.red_line div:hover {
+    /*height: 100px;
+    width: 900px;
+    transition: translatex(900px);*/
+    width: 100%;
+
+}
