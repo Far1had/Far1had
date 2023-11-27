@@ -20,47 +20,56 @@ section {
 .box1 {
     background-image: url(https://picsum.photos/501);
     grid-area: box1;
+    background-repeat: no-repeat;
 
 }
 
 .box2 {
     background-image: url(https://picsum.photos/502);
     grid-area: box2;
+    background-repeat: no-repeat;
 }
 
 .box3 {
     background-image: url(https://picsum.photos/503);
     grid-area: box3;
+    background-repeat: no-repeat;
 }
 
 .box4 {
     background-image: url(https://picsum.photos/504);
     grid-area: box4;
+    background-repeat: no-repeat;
 }
 
 .box5 {
     background-image: url(https://picsum.photos/505);
     grid-area: box5;
+    background-repeat: no-repeat;
 }
 
 .box6 {
     background-image: url(https://picsum.photos/506);
     grid-area: box6;
+    background-repeat: no-repeat;
 }
 
 .box7 {
     background-image: url(https://picsum.photos/507);
     grid-area: box7;
+    background-repeat: no-repeat;
 }
 
 .box8 {
     background-image: url(https://picsum.photos/508);
     grid-area: box8;
+    background-repeat: no-repeat;
 }
 
 .box9 {
     background-image: url(https://picsum.photos/509);
     grid-area: box9;
+    background-repeat: no-repeat;
 }
 
 .boxbox div {
