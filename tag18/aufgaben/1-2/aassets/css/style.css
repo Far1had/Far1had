@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgba(128, 128, 128, 0.428);
+    height: 200px;
+}
+
+.red_line :nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 3s 0.3s ease-in-out;
+}
+.red_line :nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 3s 2s ease-in-out;
+}
+
+.red_line div:hover {
+    width: 100%;
+}
