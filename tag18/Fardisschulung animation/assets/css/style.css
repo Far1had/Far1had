@@ -118,22 +118,9 @@ main {
   }
 }
 
-@keyframes loader {
-  0% {
-    transform: translateY(0);
-  }
-  33% {
-    transform: translateY(-10px);
-    background-color: red;
-    border-radius: 0;
-  }
-  66% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+
+
+""
 
 .loader__section {
   display: flex;
