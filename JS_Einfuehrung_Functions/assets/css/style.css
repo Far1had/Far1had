@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0;
+    margin: 0;
+    transition: background 0.5s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    transition: color 0.5s;
+}
+
+.superball-container {
+    display: flex;
+}
+
+.superball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
+#superball1 {
+    background: linear-gradient( rgb(117, 188, 117) 50%, purple 50%);
+}
+
+#superball2 {
+    background: linear-gradient( grey 50%, rgb(188, 163, 19) 50%);
+}
+
+#superball3 {
+    background: linear-gradient( rgb(43, 5, 5) 50%, orange 50%);
+}
+
+#superball4 {
+    background: linear-gradient( rgb(6, 6, 75) 50%, rgb(9, 185, 239) 50%);
+}
