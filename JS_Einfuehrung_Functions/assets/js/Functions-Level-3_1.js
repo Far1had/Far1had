@@ -6,6 +6,9 @@ function changeColors(bgColor, textColor) {
 
     body.style.background = bgColor;
     title.style.color = textColor;
+
+    //damit ich sehe was er macht & daten evl. in datenbank zu speichern!
+    console.log(changeColors);
 }
 
 //ChangeColors ("red", "blue")
