@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "sans";
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+}
+h1, li {
+    margin-top: 10%;
+}
+
+.head-class {
+    color: red;
+    font-family: "sans";
+    font-size: 5rem;
+}
+.list-class {
+    color: green;
+    font-family: "sans";
+    font-size: 3rem;
+}
