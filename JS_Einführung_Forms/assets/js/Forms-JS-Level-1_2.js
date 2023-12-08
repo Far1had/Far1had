@@ -2,8 +2,8 @@ function chinchin() {
 
     let eingabeWert = document.getElementById('bday').value;
     const aktuellesJahr = new Date().getFullYear();
-    const doppeln = aktuellesJahr - eingabeWert;
+    const rechne = aktuellesJahr - eingabeWert;
 
-    document.getElementById('result').innerText = 'Du bist erst ' + doppeln + ' Jahre jung. <3';
+    document.getElementById('result').innerText = 'Du bist erst ' + rechne + ' Jahre jung. <3';
 }
 
