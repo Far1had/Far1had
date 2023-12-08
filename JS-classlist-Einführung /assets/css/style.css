@@ -38,3 +38,9 @@ h1, li {
     font-family: "sans";
     font-size: 3rem;
 }
+
+.div-2-aufgabe {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
