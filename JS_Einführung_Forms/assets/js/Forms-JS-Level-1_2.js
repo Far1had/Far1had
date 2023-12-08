@@ -4,6 +4,6 @@ function chinchin() {
     const aktuellesJahr = new Date().getFullYear();
     const rechne = aktuellesJahr - eingabeWert;
 
-    document.getElementById('result').innerText = 'Du bist erst ' + rechne + ' Jahre jung. <3';
+    document.getElementById('result').innerText = 'Gerne, Du bist erst ' + rechne + ' Jahre jung. <3 :-)';
 }
 
