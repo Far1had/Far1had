@@ -1,9 +1,9 @@
-function headlineh1() {
-    let headlineElement = document.getElementById("head-id");
-    headlineElement.classList.toggle("head-class");
+function headShow() {
+    let headShow = document.getElementById("headShow");
+    headShow.classList.toggle("head-class");
 }
 
-function chinchin() {
+function wishes() {
     let wishesElement = document.getElementById("wishes");
     wishesElement.classList.toggle("list-class");
 }
