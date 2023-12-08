@@ -1,8 +1,3 @@
-function headShow() {
-    let headShow = document.getElementById("headShow");
-    headShow.classList.toggle("head-class");
-}
-
 function changeHeadline() {
     let headlineElement = document.getElementById("headShow");
     headlineElement.classList.toggle("head-class");
