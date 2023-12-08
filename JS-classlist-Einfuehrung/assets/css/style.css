@@ -6,7 +6,6 @@
     font-family: "roboto";
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -15,19 +14,15 @@
 html {
     font-size: 16px;
 }
-
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
-
 }
 h1, li {
     margin-top: 10%;
 }
-
 .head-class {
     color: red;
     font-family: "sans";
@@ -38,7 +33,6 @@ h1, li {
     font-family: "sans";
     font-size: 3rem;
 }
-
 .div-2-aufgabe {
     display: flex;
     flex-direction: column;
