@@ -1,7 +1,7 @@
 function verdoppeln() {
 
-    let inputValue = document.getElementById('num-id').value;
-    let doubledValue = parseFloat(inputValue) * 2 || 0;
+    let eingabeWert = document.getElementById('eingabe-id').value;
+    let doppeln = eingabeWert * 2;
 
-    document.getElementById('result').innerText = 'Das verdoppelte Ergebnis ist: ' + doubledValue;
+    document.getElementById('result').innerText = 'Ergebnis: ---> ' + doppeln;
 }
