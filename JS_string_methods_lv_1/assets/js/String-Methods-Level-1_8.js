@@ -5,9 +5,8 @@ const text = "Sam is going to codingschool";
   document.write(result2 + "<br>");
 
   const result3 = text.charAt(0).toUpperCase().concat(
-                  text.slice(1, 3).toUpperCase(),
-                  text.slice(4, 5).toLowerCase(),
-                  text.slice(6, 7).toUpperCase(),
-                  text.slice(7, 23).toLowerCase(),
-                  text.slice(23).toUpperCase());
+                  text.slice(1, 4).toUpperCase(),
+                  text.slice(4, 10).toLowerCase(),
+                  text.slice(10, 16).toLowerCase(),
+                  text.slice(22, 30).toUpperCase());
   document.write(result3 + "<br>");
