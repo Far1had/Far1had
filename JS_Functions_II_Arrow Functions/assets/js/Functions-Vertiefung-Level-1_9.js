@@ -12,4 +12,4 @@ const vorstellungsTabelle = (vorname, nachname, geburtsort, alter, wohnort) => {
     Ich wohne in ${wohnort}`
     console.log(ergebnis);
 }
-vorstellungsTabelle('Farhad', 'Amini', 'Teheran', '51', 'Meerbusch.')
+vorstellungsTabelle('Ye', 'Ti', 'Himalaya', '510', 'Tibet.')
