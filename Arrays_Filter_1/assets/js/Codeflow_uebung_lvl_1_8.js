@@ -4,12 +4,12 @@ console.log("10 Zahlen:", zahlen);
 const geradeZahlen = (array) => {
   return array.filter((zahl) => zahl % 2 === 0);
 };
+console.log("Gerade Zahlen:", geradeZahlen(zahlen));
 
 const ungeradeZahlen = (array) => {
   return array.filter((zahl) => zahl % 2 !== 0);
 };
 
-console.log("Gerade Zahlen:", geradeZahlen(zahlen));
 console.log("Ungerade Zahlen:", ungeradeZahlen(zahlen));
 
 
