@@ -4,6 +4,7 @@ let album = [
     "desktop",
     "rooms.GIF",
     "DOGATBEACH.jpg",
+    "DOG"
 ];
 
 const bearbeiteDateinamen = (albumArray) => {
@@ -23,3 +24,31 @@ const bearbeiteDateinamen = (albumArray) => {
 let bearbeitetesAlbumArray = bearbeiteDateinamen(album);
 console.log(bearbeitetesAlbumArray);
 
+
+/*
+ ['holidays', 'restaurant', 'invalid', 'rooms', 'dogatbeach', 'invalid']
+0
+: 
+"holidays"
+1
+: 
+"restaurant"
+2
+: 
+"invalid"
+3
+: 
+"rooms"
+4
+: 
+"dogatbeach"
+5
+: 
+"invalid"
+length
+: 
+6
+[[Prototype]]
+: 
+Array(0)
+*/
