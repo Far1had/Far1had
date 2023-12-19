@@ -1,7 +1,7 @@
 let fahrenheit = [0, 32, 45, 50, 75, 80, 99, 120];
 
 const temWandler = (pet) => {
-    let umrechner = pet.map(celsius => Math.round((celsius - 32) / 1.8));
+    let umrechner = pet.map(fahrenHeit => Math.round((fahrenHeit - 32) / 1.8));
     console.log(umrechner);
 
     umrechner.forEach(dubbleNum => {
