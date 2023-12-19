@@ -13,7 +13,7 @@ let languages = [
     "Swift"
 ];
 languages.sort();
-console.log(languages);
+console.log("Alles super sotiert: " + languages);
 
 /*
 (12) ['C', 'C#', 'C++', 'CSS', 'Go', 'Java', 'JavaScript', 'PHP', 'Python', 'Ruby', 'Swift', 'TypeScript']
