@@ -4,12 +4,3 @@
 }
 
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 0;
-    margin: 20%;
-    transition: background 0.5s;
-    font-family: inter;
-}
