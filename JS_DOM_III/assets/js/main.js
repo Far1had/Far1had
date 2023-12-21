@@ -3,10 +3,10 @@ function addElement() {
     let inputElement = document.getElementById('inputText');
     let list = document.getElementById('myList');
 
-    // Eingabe überprüfen
+    // Eingabe prüfen
     let inputValue = inputElement.value; // Leerzeichen entfernen
     if (inputValue === '') {
-        // Zeige eine Meldung im Dokument an
+        // Zeigt Meldung im Dokument an!
         errorMessage.textContent = 'Bitte geben Sie einen gültigen Wert ein.';
         return;
     }
