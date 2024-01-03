@@ -49,7 +49,7 @@ h1 {
 }
 
 #superball1 {
-    background: linear-gradient( rgb(117, 188, 117) 50%, purple 50%);
+    background: linear-gradient( rgba(198, 16, 230, 0.47) 50%, purple 50%);
 }
 
 #superball2 {
