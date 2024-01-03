@@ -2,24 +2,49 @@
     font-family: 'inter';
     src: url(../fonts/Inter/static/Inter-Regular.ttf);
 }
+
 @font-face {
     font-family: 'inter-bold';
     src: url(../fonts/Inter/static/Inter-Bold.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;   
+    font-size: 18px;
+    color: rgb(10, 11, 11);
 }
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 0;
     margin: 0;
     transition: background 0.5s;
-    font-family: inter;
+    font-family: inter-bold;
+    margin-top: 3%;
+    background: conic-gradient(rgb(0, 128, 122), rgb(255, 183, 0));
+}
+
+
+main {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 55px inset rgb(229, 8, 181);
+    border-radius: 50px;
+}
+
+p {
+    margin-bottom: 3%;
+    border: 10px outset rgb(229, 8, 181);
+    border-radius: 50px;
+    padding: 5%;
+}
+
+div {
+    margin: 3%;
+
 }
