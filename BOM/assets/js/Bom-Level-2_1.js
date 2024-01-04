@@ -1,20 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
     let count = 10;
-
     const countElement = document.getElementById("count");
 
-    const intervalId = setInterval(function () {
+    const intervalId = setInterval(() => {
         countElement.textContent = count;
 
         if (count === 0) {
             clearInterval(intervalId);
 
-            
-            countElement.parentElement.style.animation = "fadeOut 1s ease-out forwards";
-
-            countElement.parentElement.addEventListener("animationend", function () {
-            countElement.parentElement.style.display = "none";
-
+            countElement.parentElement.style.animation = "fadeOut 0.5s ease-out forwards";
+            countElement.parentElement.addEventListener("animationend", () => {
+                countElement.parentElement.style.display = "none";
             });
         } else {
             count--;
