@@ -1,18 +1,4 @@
-@font-face {
-    font-family: 'inter';
-    src: url(../fonts/Inter/static/Inter-Regular.ttf);
-}
-@font-face {
-    font-family: 'inter-bold';
-    src: url(../fonts/Inter/static/Inter-Bold.ttf);
-}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 18px;   
-}
 body {
     background-color: #ffad87
 }
